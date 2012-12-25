@@ -16,7 +16,7 @@ What it looks like?
 
 A not so polished game with a few available puzzles, to use with a touchscreen device. 
 
-![Screen capture](./Capture.png)
+![Screen capture](http://i.imgur.com/DOAhv.png)
 
 Download
 --------
