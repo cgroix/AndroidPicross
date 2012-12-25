@@ -1,0 +1,12 @@
+
+
+faire un seul type d'action (noircis, blanchir...) par mvt
+
+bug dans les meilleurs scores
+
+FIXED bug dans la maj des indices quand il y a des mots identiques
+
+FIXED pouvoir scroller en touchant en dehors du damier
+
+FIXED, Mais ce n'est pas génial faire en srte que les indices soient tjs visible
+

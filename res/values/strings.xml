@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Picross!</string>
+    <string name="app_name">Picross</string>
+    <string name="puz_vide">Pas de Puzzle</string>
+    <string name="bravo">Bravo!</string>
+    <string name="zerofaute">Sans faute</string>
+    <string name="faute">faute(s)</string>
+</resources>

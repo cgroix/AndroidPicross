@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mainLayout"
+	android:orientation="horizontal" 
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+	<LinearLayout 
+		android:orientation="vertical"
+		android:layout_width="0px" 
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:layout_marginRight="5px"
+		android:layout_marginLeft="5px"
+		android:layout_marginTop="2px"
+		android:gravity="center_horizontal">
+		
+				
+		<Button android:id="@+id/BoutonCurseurBlanc"
+			android:background="@drawable/boutonblanc"
+			android:layout_height="50px"
+			android:layout_width="50px"
+			android:onClick="boutonCurseurBlanc"
+			android:layout_marginBottom="10px" />
+		/>
+		<Button android:id="@+id/BoutonCurseurNoir"
+			android:background="@drawable/boutonnoir"
+			android:layout_width="50px"
+			android:layout_height="50px" 
+			android:onClick="boutonCurseurNoir"
+			android:layout_marginBottom="10px" />
+		<Button android:id="@+id/BoutonCurseurCroix"
+			android:background="@drawable/boutoncroix"
+			android:layout_width="50px"
+			android:layout_height="50px" 
+			android:onClick="boutonCurseurCroix" 
+			android:layout_marginBottom="20px" />
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<TextView android:id="@+id/cptErreur"
+	 			android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text=""
+	        	android:textColor="#000000"
+        	/>
+        	<Chronometer android:id="@+id/chrono"
+        		android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:textColor="#000000"
+        	/>
+        	<TextView android:id="@+id/bravo"
+	 			android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text=""
+	        	android:textColor="#000000"
+        	/>
+		</LinearLayout>
+	</LinearLayout>
+	
+	<FrameLayout android:id="@+id/mainDisplay"
+		android:background="#0000" 
+		android:layout_width="0px"
+		android:layout_height="match_parent"
+		android:layout_weight="8"
+		android:layout_marginLeft="5px">
+	</FrameLayout>
+	
+	
+</LinearLayout>
